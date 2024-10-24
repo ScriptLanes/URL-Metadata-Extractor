@@ -1,0 +1,22 @@
+{
+  "name": "url-metadata-extractor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/metadata.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node-fetch": "^2.6.11",
+    "jsdom": "^25.0.1",
+    "node-fetch": "^3.3.2"
+  }
+}
